@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BAS STURCTURE">
+      <UniqueIdentifier>{246933e4-6869-41bf-8b93-c1a9f7a76567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADV STURCTURE">
+      <UniqueIdentifier>{6ceb50d7-69c6-45a1-ba07-c1ac0b37e59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PROTOTYPES">
+      <UniqueIdentifier>{e39ef3a3-757f-4b23-bf76-42b0d0e93863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PRISON OBJS">
+      <UniqueIdentifier>{d9e1feda-5045-40e3-b029-d50d9629397f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MAINs">
+      <UniqueIdentifier>{09901a02-b369-485c-baab-332e321663b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLinklist.h">
+      <Filter>Header Files\BAS STURCTURE</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\BAS STURCTURE</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\BAS STURCTURE</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>Header Files\ADV STURCTURE</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>Header Files\ADV STURCTURE</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable.h">
+      <Filter>Header Files\ADV STURCTURE</Filter>
+    </ClInclude>
+    <ClInclude Include="Criminals.h">
+      <Filter>Header Files\PRISON OBJS</Filter>
+    </ClInclude>
+    <ClInclude Include="Prison.h">
+      <Filter>Header Files\PRISON OBJS</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Header Files\PROTOTYPES</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\PROTOTYPES</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_function.h">
+      <Filter>Header Files\PROTOTYPES</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_display.h">
+      <Filter>Header Files\PROTOTYPES</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Criminals.cpp">
+      <Filter>Source Files\MAINs</Filter>
+    </ClCompile>
+    <ClCompile Include="IO.cpp">
+      <Filter>Source Files\MAINs</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN.cpp">
+      <Filter>Source Files\MAINs</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\MAINs</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_funciton.cpp">
+      <Filter>Source Files\MAINs</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_display.cpp">
+      <Filter>Source Files\MAINs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
